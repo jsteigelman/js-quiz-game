@@ -305,7 +305,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 1091138213}
-  question: {fileID: 11400000, guid: a6d2f57f130f04365b31931898c05112, type: 2}
+  questions:
+  - {fileID: 11400000, guid: 6810e256fed0f490aaa2e00fadcf6243, type: 2}
+  - {fileID: 11400000, guid: a6d2f57f130f04365b31931898c05112, type: 2}
+  - {fileID: 11400000, guid: 3364ab7930c1a40578a1039bb4a2677e, type: 2}
+  - {fileID: 11400000, guid: a7542396c22574409bacf5e2780985a5, type: 2}
+  - {fileID: 11400000, guid: 6fa1659dfca6c49e89607208442d284e, type: 2}
   answerButtons:
   - {fileID: 1230666498}
   - {fileID: 589300731}
@@ -647,6 +652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadNextQuestion: 0
   fillFraction: 0
+  isAnsweringQuestion: 0
 --- !u!1 &589300731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7722091805530224882, guid: 4bf89f462e5ed42198daaa39539a55ef, type: 3}
@@ -861,8 +867,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000013873, y: 211}
-  m_SizeDelta: {x: 534.3616, y: 138.0952}
+  m_AnchoredPosition: {x: 0.000013873, y: 204.9577}
+  m_SizeDelta: {x: 534.3616, y: 240.8127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091138213
 MonoBehaviour:
@@ -919,7 +925,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -2
   m_wordSpacing: 0

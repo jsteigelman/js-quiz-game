@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour
 {
 
     float timeToCompleteQuestion = 15f;
-    float timeToShowCorrectAnswer = 4f;
+    float timeToShowCorrectAnswer = 2f;
 
     public bool loadNextQuestion;
     public float fillFraction;

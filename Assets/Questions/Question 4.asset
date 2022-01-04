@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 4
   m_EditorClassIdentifier: 
   question: How do you convert all of the letters in a string to uppercase?
+  answers:
+  - myString.upper()
+  - myString.capitalize()
+  - myString.uppercase()
+  - myString.toUpperCase()
+  correctAnswerindex: 3

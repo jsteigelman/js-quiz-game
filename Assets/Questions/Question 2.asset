@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Which of the following variables contains a truthy value?
   answers:
-  - let myVar = 'false'
   - let myVar = ''
-  - let myVar = false
+  - let myVar = 'false'
   - let myVar = 0
-  correctAnswerindex: 0
+  - let myVar = false
+  correctAnswerindex: 1

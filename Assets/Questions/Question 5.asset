@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e55c17df6fc54f2b854adf3b40c829b, type: 3}
   m_Name: Question 5
   m_EditorClassIdentifier: 
-  question: Which of the following variables contains a falsey value?
+  question: Which of the following variables has a falsy value?
+  answers:
+  - let myVar = undefined
+  - let myVar = 'zero'
+  - let myVar = '0'
+  - let myVar = 'false'
+  correctAnswerindex: 0

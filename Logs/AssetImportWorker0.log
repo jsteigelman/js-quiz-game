@@ -283,3 +283,44 @@ Start importing Assets/Button.prefab using Guid(4bf89f462e5ed42198daaa39539a55ef
  -> (artifact id: 'cc09e0566bc49e8667cf0aff1be0776c') in 1.761654 seconds 
   Import took 1.826383 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 142.194584 seconds.
+  path: Assets/AnswerButton.prefab
+  artifactKey: Guid(4bf89f462e5ed42198daaa39539a55ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnswerButton.prefab using Guid(4bf89f462e5ed42198daaa39539a55ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '100d84f27ffe4d2fcc70ecff2268c956') in 0.316193 seconds 
+  Import took 0.331715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.725222 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(3ab2da4afb23e4dd88d6f689b51ec2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(3ab2da4afb23e4dd88d6f689b51ec2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fd64e7b4f92b6243d55dd7849aef15') in 0.006130 seconds 
+  Import took 0.015867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.610040 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2dff2928e6ce144c9b995aeb2c3a2075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2dff2928e6ce144c9b995aeb2c3a2075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adadd31f0c9c79d76bd9785bb2899cf2') in 0.004600 seconds 
+  Import took 0.018734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.739773 seconds.
+  path: Assets/Scripts/Questions
+  artifactKey: Guid(a4842edfe409645cb96ad24d3b9ef852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Questions using Guid(a4842edfe409645cb96ad24d3b9ef852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde081dddbd4aa40f10d587e0e50f3fb') in 0.014011 seconds 
+  Import took 0.030527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.785883 seconds.
+  path: Assets/Questions
+  artifactKey: Guid(588720be11e3d4bc9bccff955e774add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Questions using Guid(588720be11e3d4bc9bccff955e774add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68d597c4b8413752c40fae788a41ce8') in 0.003419 seconds 
+  Import took 0.012573 seconds .
+

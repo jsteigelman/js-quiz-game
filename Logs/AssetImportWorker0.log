@@ -256,3 +256,30 @@ Received Import Request.
 Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb4c914a0790649d642929bf8895c3') in 0.052506 seconds 
   Import took 0.062807 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 807.663362 seconds.
+  path: Assets/Inter-Bold SDF.asset
+  artifactKey: Guid(97796e0874c35468eb2d2834780e154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inter-Bold SDF.asset using Guid(97796e0874c35468eb2d2834780e154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '066f52108c1bfb6e0e778b0da3d66a65') in 0.235893 seconds 
+  Import took 0.305089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Inter-SemiBold SDF.asset
+  artifactKey: Guid(e997c1061e8ed4ae29ca85e5ace0ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inter-SemiBold SDF.asset using Guid(e997c1061e8ed4ae29ca85e5ace0ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'b0cfa1f5f91b33d87ad79dabdeb2d3fd') in 0.141182 seconds 
+  Import took 0.153077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 619.771259 seconds.
+  path: Assets/Button.prefab
+  artifactKey: Guid(4bf89f462e5ed42198daaa39539a55ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button.prefab using Guid(4bf89f462e5ed42198daaa39539a55ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'cc09e0566bc49e8667cf0aff1be0776c') in 1.761654 seconds 
+  Import took 1.826383 seconds .
+

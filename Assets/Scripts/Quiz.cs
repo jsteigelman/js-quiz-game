@@ -13,6 +13,7 @@ public class Quiz : MonoBehaviour
     int correctAnswerindex;
     [SerializeField] Sprite defaultAnswerSprite;
     [SerializeField] Sprite correctAnswerSprite;
+    [SerializeField] Sprite incorrectAnswerSprite;
 
     void Start()
     {
@@ -25,10 +26,25 @@ public class Quiz : MonoBehaviour
     }
 
     public void OnAnswerSelected(int index) {
+
+        // Image buttonImage;
+        Image correctButtonImage;
+        Image incorrectButtonImage;
+
         if (index == question.GetCorrectAnswerIndex()) {
             questionText.text = "Correct!";
-            Image buttonImage = answerButtons[index].GetComponent<Image>();
-            buttonImage.sprite = correctAnswerSprite;
+            correctButtonImage = answerButtons[index].GetComponent<Image>();
+            correctButtonImage.sprite = correctAnswerSprite;
+        } else {
+            int correctAnswerIndex = question.GetCorrectAnswerIndex();
+            // string correctAnswer = question.GetAnswer(correctAnswerindex);
+            questionText.text = "Sorry! That's incorrect.";
+
+            correctButtonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
+            correctButtonImage.sprite = correctAnswerSprite;
+            // questionText.text = "Try again!";
+            incorrectButtonImage = answerButtons[index].GetComponent<Image>();
+            incorrectButtonImage.sprite = incorrectAnswerSprite;
         }
     }
 }

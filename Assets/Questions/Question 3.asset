@@ -18,4 +18,4 @@ MonoBehaviour:
   - myArray.numElements()
   - myArray.length
   - myArray.findLength
-  correctAnswerindex: 2
+  correctAnswerIndex: 2

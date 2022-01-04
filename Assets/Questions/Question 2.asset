@@ -18,4 +18,4 @@ MonoBehaviour:
   - let myVar = 'false'
   - let myVar = 0
   - let myVar = false
-  correctAnswerindex: 1
+  correctAnswerIndex: 1

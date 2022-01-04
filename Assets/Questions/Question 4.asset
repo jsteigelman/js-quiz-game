@@ -18,4 +18,4 @@ MonoBehaviour:
   - myString.capitalize()
   - myString.uppercase()
   - myString.toUpperCase()
-  correctAnswerindex: 3
+  correctAnswerIndex: 3

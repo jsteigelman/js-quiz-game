@@ -14,6 +14,7 @@ public class Quiz : MonoBehaviour
     [Header("Answers")]
     [SerializeField] GameObject[] answerButtons;
     int correctAnswerindex;
+    bool hasAnsweredEarly;
 
     [Header("Answer Button Colors")]
     [SerializeField] Sprite defaultAnswerSprite;
@@ -33,15 +34,18 @@ public class Quiz : MonoBehaviour
 
     void Update() {
         timerImage.fillAmount = timer.fillFraction;
+
         if (timer.loadNextQuestion) {
+            hasAnsweredEarly = false;
             GetNextQuestion();
             timer.loadNextQuestion = false;
+        } else if (!hasAnsweredEarly && !timer.isAnsweringQuestion) {
+            DisplayAnswer(-1);
+            SetButtonState(false);
         }
     }
 
-    public void OnAnswerSelected(int index) {
-
-        // Image buttonImage;
+    void DisplayAnswer(int index) {
         Image correctButtonImage;
         Image incorrectButtonImage;
 
@@ -51,16 +55,18 @@ public class Quiz : MonoBehaviour
             correctButtonImage.sprite = correctAnswerSprite;
         } else {
             int correctAnswerIndex = question.GetCorrectAnswerIndex();
-            // string correctAnswer = question.GetAnswer(correctAnswerindex);
             questionText.text = "Sorry! That's incorrect.";
 
             correctButtonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             correctButtonImage.sprite = correctAnswerSprite;
-            // questionText.text = "Try again!";
             incorrectButtonImage = answerButtons[index].GetComponent<Image>();
             incorrectButtonImage.sprite = incorrectAnswerSprite;
         }
+    }
 
+    public void OnAnswerSelected(int index) {
+        hasAnsweredEarly = true;
+        DisplayAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
     }

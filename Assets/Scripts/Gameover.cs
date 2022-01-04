@@ -9,7 +9,7 @@ public class Gameover : MonoBehaviour
     [SerializeField] TextMeshProUGUI finalScoreText;
     ScoreKeeper scoreKeeper;
 
-    void Start()
+    void Awake()
     {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }

@@ -1,0 +1,258 @@
+Unity Editor version:    2020.3.22f1 (e1a7f79fd887)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/joeysteigelman/Desktop/Code/Unity/JavaScript Quiz
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54362
+Successfully changed project path to: /Users/joeysteigelman/Desktop/Code/Unity/JavaScript Quiz
+/Users/joeysteigelman/Desktop/Code/Unity/JavaScript Quiz
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 208.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/joeysteigelman/Desktop/Code/Unity/JavaScript Quiz/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-03 17:33:31.583 Unity[4964:192606] Color LCD preferred device: Intel(R) HD Graphics 515 (low power)
+2022-01-03 17:33:31.583 Unity[4964:192606] Metal devices available: 1
+2022-01-03 17:33:31.583 Unity[4964:192606] 0: Intel(R) HD Graphics 515 (low power)
+2022-01-03 17:33:31.583 Unity[4964:192606] Using device Intel(R) HD Graphics 515 (low power)
+Initializing Metal device caps: Intel(R) HD Graphics 515
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003979 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.561 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6562ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1297ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4493ms)
+		BeginReloadAssembly (679ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (3594ms)
+			LoadAssemblies (996ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1012ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1096ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (679ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000611 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000574 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.3 MB.
+System memory in use after: 198.5 MB.
+
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 13.483634 ms (FindLiveObjects: 0.834302 ms CreateObjectMapping: 0.422273 ms MarkObjects: 10.914350 ms  DeleteObjects: 1.309064 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/previs.png
+  artifactKey: Guid(05faf20bc6a694ca39b1f6e61d2da3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/previs.png using Guid(05faf20bc6a694ca39b1f6e61d2da3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eee389c3b7270744010fef1e4b29304') in 2.054067 seconds 
+  Import took 2.062464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4222.733649 seconds.
+  path: Assets/Sprites/previsualization.png
+  artifactKey: Guid(1d36693f661c44c12a29074f8105679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/previsualization.png using Guid(1d36693f661c44c12a29074f8105679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3551bc33816e7dbd8400571a0941b6e3') in 0.356790 seconds 
+  Import took 0.598902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.974978 seconds.
+  path: Assets/Sprites/background.png
+  artifactKey: Guid(4df71866f54ce478c8cb05a9e899bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/background.png using Guid(4df71866f54ce478c8cb05a9e899bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056cbe56a915b6869469a67dccba778f') in 0.103862 seconds 
+  Import took 0.132453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.727245 seconds.
+  path: Assets/Sprites/button.png
+  artifactKey: Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281fc25bff2d9fd12a935603a14e8675') in 0.111809 seconds 
+  Import took 0.143988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 517.104650 seconds.
+  path: Assets/Inter-Bold.ttf
+  artifactKey: Guid(b4afcba21cf6e4182baa9c3066a1e474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inter-Bold.ttf using Guid(b4afcba21cf6e4182baa9c3066a1e474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30e65afbb526d6f5d5be8005a583df3') in 12.219458 seconds 
+  Import took 12.286474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011149 seconds.
+  path: Assets/Inter-SemiBold.ttf
+  artifactKey: Guid(fca8841d545dc46ac9f7b511dcbc8326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inter-SemiBold.ttf using Guid(fca8841d545dc46ac9f7b511dcbc8326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b5c4613a0eb544cd495b1dd66f29ff') in 0.060546 seconds 
+  Import took 0.073596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.305987 seconds.
+  path: Assets/Inter-SemiBold SDF.asset
+  artifactKey: Guid(e997c1061e8ed4ae29ca85e5ace0ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inter-SemiBold SDF.asset using Guid(e997c1061e8ed4ae29ca85e5ace0ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ccb276714bf40ad859944853b95ce511') in 4.097065 seconds 
+  Import took 4.114537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.453032 seconds.
+  path: Assets/Inter-Bold SDF.asset
+  artifactKey: Guid(97796e0874c35468eb2d2834780e154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inter-Bold SDF.asset using Guid(97796e0874c35468eb2d2834780e154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3ab81b132ef707961bb859d4a79bb512') in 0.108662 seconds 
+  Import took 0.121851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 586.316332 seconds.
+  path: Assets/Sprites/button.png
+  artifactKey: Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279fb9dc650873431fbe9dce6ba86231') in 0.287702 seconds 
+  Import took 0.477794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.595025 seconds.
+  path: Assets/Sprites/button.png
+  artifactKey: Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96a96f532b79c66f9b124382ae008ae') in 0.072396 seconds 
+  Import took 0.087801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.367969 seconds.
+  path: Assets/Sprites/button.png
+  artifactKey: Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba50ad0778401ead0ece9168a3383a1') in 0.049780 seconds 
+  Import took 0.062133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.094606 seconds.
+  path: Assets/Sprites/button.png
+  artifactKey: Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8714774e539ee0288d4bef9785775e90') in 0.046430 seconds 
+  Import took 0.059001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.629159 seconds.
+  path: Assets/Sprites/button.png
+  artifactKey: Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button.png using Guid(ba9d2762e0f6b4089a6bfc527eabe6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb4c914a0790649d642929bf8895c3') in 0.052506 seconds 
+  Import took 0.062807 seconds .
+

@@ -10,11 +10,14 @@ public class Quiz : MonoBehaviour
     [Header("Questions")]
     [SerializeField] TextMeshProUGUI questionText;
     [SerializeField] List<QuestionSO> questions = new List<QuestionSO>();
+
+    // [SerializeField] QuestionSO currentQuestion;
     QuestionSO currentQuestion;
+
 
     [Header("Answers")]
     [SerializeField] GameObject[] answerButtons;
-    int correctAnswerindex;
+    int correctAnswerIndex;
     bool hasAnsweredEarly;
 
     [Header("Answer Button Colors")]
@@ -26,9 +29,14 @@ public class Quiz : MonoBehaviour
     [SerializeField] Image timerImage;
     Timer timer;
 
+    [Header("Scoring")]
+    [SerializeField] TextMeshProUGUI scoreNumber;
+    ScoreKeeper scoreKeeper;
+
     void Start()
     {
         timer = FindObjectOfType<Timer>();
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
 
     void Update() {
@@ -49,17 +57,20 @@ public class Quiz : MonoBehaviour
         Image incorrectButtonImage;
 
         if (index == currentQuestion.GetCorrectAnswerIndex()) {
-            questionText.text = "Correct!";
+            questionText.text = "Great job! That's correct.";
             correctButtonImage = answerButtons[index].GetComponent<Image>();
             correctButtonImage.sprite = correctAnswerSprite;
+            scoreKeeper.PlayerGuessedCorrectly();
         } else {
             int correctAnswerIndex = currentQuestion.GetCorrectAnswerIndex();
             questionText.text = "Sorry! That's incorrect.";
-
             correctButtonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             correctButtonImage.sprite = correctAnswerSprite;
-            incorrectButtonImage = answerButtons[index].GetComponent<Image>();
-            incorrectButtonImage.sprite = incorrectAnswerSprite;
+            if (index >= 0) {
+                incorrectButtonImage = answerButtons[index].GetComponent<Image>();
+                incorrectButtonImage.sprite = incorrectAnswerSprite;
+            }
+            scoreKeeper.PlayerGuessedIncorrectly();
         }
     }
 
@@ -68,6 +79,8 @@ public class Quiz : MonoBehaviour
         DisplayAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
+        int currentScore = scoreKeeper.GetScore();
+        scoreNumber.text = currentScore.ToString();
     }
 
     void GetNextQuestion() {

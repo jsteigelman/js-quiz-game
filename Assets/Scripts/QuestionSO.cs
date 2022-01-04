@@ -9,14 +9,14 @@ public class QuestionSO : ScriptableObject
     [TextArea(2, 6)]
     [SerializeField] string question = "Question text here";
     [SerializeField] string[] answers = new string[4];
-    [SerializeField] int correctAnswerindex;
+    [SerializeField] int correctAnswerIndex;
 
     public string GetQuestion() {
         return question;
     }
 
     public int GetCorrectAnswerIndex() {
-        return correctAnswerindex;
+        return correctAnswerIndex;
     }
 
     public string GetAnswer(int index) {

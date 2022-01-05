@@ -79,11 +79,12 @@ public class Quiz : MonoBehaviour
             questionText.text = "Sorry! That's incorrect.";
             correctButtonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             correctButtonImage.sprite = correctAnswerSprite;
+            // scoreKeeper.PlayerGuessedIncorrectly();
             if (index >= 0) {
                 incorrectButtonImage = answerButtons[index].GetComponent<Image>();
                 incorrectButtonImage.sprite = incorrectAnswerSprite;
+                scoreKeeper.PlayerGuessedIncorrectly();
             }
-            scoreKeeper.PlayerGuessedIncorrectly();
         }
     }
 
@@ -94,7 +95,7 @@ public class Quiz : MonoBehaviour
         timer.CancelTimer();
         int currentScore = scoreKeeper.GetScore();
         scoreNumber.text = currentScore.ToString();
-        
+        progressBar.value += 1;
     }
 
     void GetNextQuestion() {
@@ -103,7 +104,7 @@ public class Quiz : MonoBehaviour
             SetDefaultButtonSprites();
             GetRandomQuestion();
             DisplayQuestion();
-            progressBar.value += 1;
+            // progressBar.value += 1;
         }
     }
 

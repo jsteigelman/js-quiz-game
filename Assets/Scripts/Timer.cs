@@ -5,8 +5,8 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
 
-    float timeToCompleteQuestion = 15f;
-    float timeToShowCorrectAnswer = 2f;
+    float timeToCompleteQuestion = 10f;
+    float timeToShowCorrectAnswer = 1.5f;
 
     public bool loadNextQuestion;
     public float fillFraction;
@@ -35,7 +35,8 @@ public class Timer : MonoBehaviour
             }
         } else {
             if (timerValue > 0) {
-                fillFraction = timerValue / timeToShowCorrectAnswer;
+                // fillFraction = timerValue / timeToShowCorrectAnswer;
+                fillFraction = 0;
             } else {
                 timerValue = timeToCompleteQuestion;
                 isAnsweringQuestion = true;

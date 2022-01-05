@@ -15,7 +15,10 @@ public class Gameover : MonoBehaviour
     }
 
     public void ShowFinalScore() {
-        finalScoreText.text = "You scored " + scoreKeeper.GetScore() + " points. Way to go!";
+        if (scoreKeeper.GetScore() > 0) {
+            finalScoreText.text = "You scored " + scoreKeeper.GetScore() + " points. Way to go!";
+        } else {
+            finalScoreText.text = "You scored " + scoreKeeper.GetScore() + " points. Better luck next time!";
+        }
     }
-
 }

@@ -7,11 +7,11 @@ public class ScoreKeeper : MonoBehaviour
     int scoreNumber = 0;
 
     public void PlayerGuessedCorrectly() {
-        scoreNumber += 8;
+        scoreNumber += 15;
     }
 
     public void PlayerGuessedIncorrectly() {
-        scoreNumber -= 4;
+        scoreNumber -= 5;
     }
 
     public int GetScore() {

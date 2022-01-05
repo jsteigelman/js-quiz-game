@@ -1,4 +1,4 @@
-# Simple JavaScript Quiz Game
+# Quiz Game (Test Your JavaScript Skills)
 
 ## Description
 This is a simple quiz game to test your knowledge of basic JavaScript. The game is built in Unity using C#. For the design, I used components and styles from Figma's free "Daily Standup" FigJam template.

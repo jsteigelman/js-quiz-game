@@ -7,7 +7,7 @@ This is a simple quiz to test your knowledge of basic JavaScript. The game is bu
 [https://steigelman-js-quiz-game.netlify.app/](https://steigelman-js-quiz-game.netlify.app/)
 
 ## Functionality
-* Player is presented with 6 trivia questions, one at a time
+* Player is presented with 6 questions to test their knowledge of basic JavaScript
 * Player has set amount of time to answer each question
 * Correct answers increment player score; incorrect answers decrement player score
 * Progress bar indicates the number of complete and incomplete questions
